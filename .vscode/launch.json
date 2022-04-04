@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "lldb: Clang++ Launch and Debug",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.o",
+      "preLaunchTask": "clang++ build active file"
+    }
+  ]
+}
